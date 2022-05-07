@@ -9,4 +9,24 @@ class NewsArticleViewModel {
   String get title {
     return _newsArticle.title ?? "";
   }
+
+  String get description {
+    return _newsArticle.description ?? "";
+  }
+
+  String get urlToImage {
+    return _newsArticle.urlToImage ?? "";
+  }
+
+  String get url {
+    return _newsArticle.url ?? "";
+  }
+
+  String get author {
+    return _newsArticle.author ?? "";
+  }
+
+  String get publishedAt {
+    return _newsArticle.publishedAt ?? "";
+  }
 }
